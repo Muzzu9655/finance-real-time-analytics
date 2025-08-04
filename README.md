@@ -19,7 +19,7 @@ The solution follows a **streaming ETL pipeline**:
 4. **Athena / Analytics Layer** → Query transactions for insights
 5. **Optional: Kinesis + Lambda** → Can be added for real-time streaming
 
-![Architecture Diagram](finance project architect.png)
+![Architecture Diagram](finance_project_architect.png)
 
 ---
 
@@ -94,3 +94,5 @@ finance-real-time-analytics/
 - **AWS:** S3, Athena, (optional Kinesis & Lambda)
 - **DevOps:** Terraform IaC, GitHub, project structuring
 - **Data Engineering:** ETL pipelines, fraud detection logic
+
+---
