@@ -26,7 +26,7 @@ except FileNotFoundError:
 # --------------------------
 print("Processing transactions...")
 
-# Add a fraud flag
+# Add a fraud flag for large transactions
 df['fraud_flag'] = df['amount'].apply(lambda x: 'Yes' if x >= FRAUD_THRESHOLD else 'No')
 
 # Add a processing timestamp
@@ -34,6 +34,7 @@ df['processed_timestamp'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # Aggregate totals for summary (credits vs debits)
 summary = df.groupby('type')['amount'].sum().reset_index()
+
 print("\n--- Transaction Summary ---")
 print(summary)
 
