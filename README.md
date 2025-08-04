@@ -77,11 +77,20 @@ finance-real-time-analytics/
    |-----------------|--------------|
    | credit          | 15000        |
    | debit           | 8200         |
+
+---
+
+## 📊 Screenshots
+
+- **ETL Script Output:**  
+  ![ETL Output](etl_output.png)
+
+- **Athena Query Result:**  
+  ![Athena Result](athena_query_result.png)
+
 ---
 
 ## ✅ Skills Demonstrated
 - **AWS:** S3, Athena, (optional Kinesis & Lambda)
 - **DevOps:** Terraform IaC, GitHub, project structuring
 - **Data Engineering:** ETL pipelines, fraud detection logic
-
----
