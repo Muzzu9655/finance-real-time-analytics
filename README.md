@@ -19,7 +19,7 @@ The solution follows a **streaming ETL pipeline**:
 4. **Athena / Analytics Layer** → Query transactions for insights
 5. **Optional: Kinesis + Lambda** → Can be added for real-time streaming
 
-![Architecture Diagram](architecture_diagram.png)
+![Architecture Diagram](finance project architect.png)
 
 ---
 
@@ -77,14 +77,6 @@ finance-real-time-analytics/
    |-----------------|--------------|
    | credit          | 15000        |
    | debit           | 8200         |
-
----
-
-## 📊 Screenshots
-
-- **Architecture of the projec:**  
-  ![Architecture](finance project architect.jpg)
-
 ---
 
 ## ✅ Skills Demonstrated
