@@ -4,8 +4,8 @@ from datetime import datetime
 # --------------------------
 # CONFIGURATION
 # --------------------------
-INPUT_FILE = "../sample_data/transactions_stream.csv"
-OUTPUT_FILE = "../sample_data/processed_transactions.csv"
+INPUT_FILE = "/home/cloudshell-user/finance-real-time-analytics/sample_data/transactions_stream.csv"
+OUTPUT_FILE = "/home/cloudshell-user/finance-real-time-analytics/sample_data/processed_transactions.csv"
 
 # Threshold for suspicious transaction
 FRAUD_THRESHOLD = 10000  # Example: Flag any transaction >= 10,000
@@ -43,3 +43,4 @@ print(summary)
 # --------------------------
 df.to_csv(OUTPUT_FILE, index=False)
 print(f"\nProcessed file saved as {OUTPUT_FILE}")
+
